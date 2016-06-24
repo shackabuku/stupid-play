@@ -9,4 +9,8 @@ class Application extends Controller {
 		Ok("Working hard or hardly working...")
 	}
 
+	def test = Action {
+		Ok("Testing...")
+	}
+
 }
